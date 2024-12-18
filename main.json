@@ -1,0 +1,155 @@
+{
+    "products": [
+      {
+        "name": "Panadol",
+        "category": "Analgesics",
+        "price":  50.25
+      },
+      {
+        "name": "Tylenol",
+        "category": "Analgesics",
+        "price": 202.00
+      },
+      {
+        "name": "Calpol",
+        "category": "Analgesics",
+        "price": 150.12
+      },
+      {
+        "name": "Advil",
+        "category": "Analgesics",
+        "price": 500.00
+      },
+      {
+        "name": "Cataflam",
+        "category": "Analgesics",
+        "price": 800.45
+      },
+      {
+        "name": "Aspro",
+        "category": "Analgesics",
+        "price":  370.00
+      },
+      {
+        "name": "Amoxil",
+        "category": "Antibiotics",
+        "price": 656.78
+      },
+      {
+        "name": "Moxatag",
+        "category": "Antibiotics",
+        "price": 442.00
+      },
+      {
+        "name": "Zithromax",
+        "category": "Antibiotics",
+        "price": 390.00
+      },
+      {
+        "name": "Ciproflox",
+        "category": "Antibiotics",
+        "price": 550.10
+      },
+      {
+        "name": "Flagyl",
+        "category": "Antibiotics",
+        "price": 480.00
+      },
+      {
+        "name": "Keflex",
+        "category": "Antibiotics",
+        "price":  175.89
+      },
+      {
+        "name": "Fluoxetine",
+        "category": "Antidepressants",
+        "price":  524.00
+      },
+      {
+        "name": "Sertraline",
+        "category": "Antidepressants",
+        "price": 312.65 
+      },
+      {
+        "name": "Venlafaxine",
+        "category": "Antidepressants",
+        "price": 320.00
+      },
+      {
+        "name": "Duloxetine",
+        "category": "Antidepressants",
+        "price":  560.74
+      },
+      {
+        "name": "Imipramine",
+        "category": "Antidepressants",
+        "price":  487.00
+      },
+      {
+        "name": "Selegiline",
+        "category": "Antidepressants",
+        "price":  170.63
+      },
+      {
+        "name": "Loratadine",
+        "category": "Antihistamines",
+        "price": 612.00
+      },
+      {
+        "name": "Fexofenadine",
+        "category": "Antihistamines",
+        "price": 442.25
+      },
+      {
+        "name": "Desloratadine",
+        "category": "Antihistamines",
+        "price":  390.00
+      },
+      {
+        "name": "Promethazine",
+        "category": "Antihistamines",
+        "price": 500.50
+      },
+      {
+        "name": "Azelastine",
+        "category": "Antihistamines",
+        "price": 450.00
+      },
+      {
+        "name": "Ketotifen",
+        "category": "Antihistamines",
+        "price": 300.12
+      },
+      {
+        "name": "Enalapril",
+        "category": "Antihypertensives",
+        "price": 980.00
+      },
+      {
+        "name": "Lisinopril",
+        "category": "Antihypertensives",
+        "price":  492.78
+      },
+      {
+        "name": "Perindopril",
+        "category": "Antihypertensives",
+        "price": 120.00
+      },
+      {
+        "name": "Irbesartan",
+        "category": "Antihypertensives",
+        "price": 851.85
+      },
+      {
+        "name": "Metoprolol",
+        "category": "Antihypertensives",
+        "price":  695.00
+      },
+      {
+        "name": "Carvedilol",
+        "category": "Antihypertensives",
+        "price":  215.15
+      }
+    ]
+  }
+  

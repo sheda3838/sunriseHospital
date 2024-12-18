@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="faviconi6/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="faviconi6/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="faviconi6/favicon-16x16.png">
+    <link rel="manifest" href="faviconi6/site.webmanifest">
+    <link rel="mask-icon" href="faviconi6/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="form.css">
+    <title>Sunrise Hospital</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Form Section -->
+        <div class="form-container">
+            <h1>Order Form</h1>
+            <form action="#" method="POST">
+                <!-- Personal Details Section -->
+                <fieldset class="section">
+                    <legend>Personal Details</legend>
+
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="e.g.John Smith" ><br><br>
+
+                    <label for="phone">Phone Number:</label><br>    
+                    <input type="number" id="phone" name="phone" placeholder="e.g. 75 021 6954" ><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="e.g. johndoe@gmail.com" required><br><br>
+
+                    <label>Address:</label><br><br>
+                    
+                    <label for="city">City:</label><br>
+                    <select id="city" name="city" >
+                        <option value="" disabled selected>Select your city</option>
+                        <option value="Colombo">Colombo</option>
+                        <option value="Kandy">Kandy</option>
+                        <option value="Galle">Galle</option>
+                        <option value="Jaffna">Jaffna</option>
+                        <option value="Negombo">Negombo</option>
+                        <option value="Matara">Matara</option>
+                        <option value="Anuradhapura">Anuradhapura</option>
+                        <option value="Polonnaruwa">Polonnaruwa</option>
+                        <option value="Trincomalee">Trincomalee</option>
+                        <option value="Batticaloa">Batticaloa</option>
+                        <option value="Nuwara Eliya">Nuwara Eliya</option>
+                        <option value="Dambulla">Dambulla</option>
+                    </select><br><br>
+                    
+                    <label for="street">Street:</label><br>
+                    <input type="text" id="street" name="street" placeholder="e.g. Main Street" ><br><br>
+                    
+                    <label for="house-number">House Number:</label><br>
+                    <input type="number" id="house-number" name="house-number" placeholder="e.g.  15" ><br><br>
+
+                </fieldset>
+
+
+                <fieldset class="section">
+                    <legend>Delivery Details</legend>
+
+                    <label for="delivery-method">Delivery Method:</label>
+                    <select id="delivery-method" name="delivery-method" >
+                        <option value="" disabled selected >Choose delivery method</option>
+                        <option value="pickup">Pickup</option>
+                        <option value="delivery">Delivery</option>
+                    </select><br><br>
+
+                    <div class="delivery-container">
+                        <input type="radio" id="standard-delivery" name="deliver-option" value="500.45" >
+                        <label for="cash">Standard Delivery: Rs. 500.45</label><br>
+        
+                        <input type="radio" id="express-delivery" name="deliver-option" value="725.25">
+                        <label for="card">Express Delivery: Rs. 725.25</label><br>
+                    </div>
+                </fieldset>
+
+
+                <fieldset class="section">
+                    <legend>Payment Method</legend>
+                    <label>Choose Payment Method:</label><br><br>
+
+                    <input type="radio" id="cash" name="payment-method" value="cash" >
+                    <label for="cash">Cash</label><br>
+
+                    <input type="radio" id="card" name="payment-method" value="card">
+                    <label for="card">Card</label><br>
+
+                    <div id="card-details" >
+                        <label for="card-number">Card Number:</label>
+                        <input type="number" id="card-number" placeholder="Enter Card Number"><br>
+                        <label for="cvv">CVV:</label><br>
+                        <input type="number" id="cvv" placeholder="Enter CVV"><br>
+                    </div>
+
+                    <input type="radio" id="deposits" name="payment-method" value="deposits">
+                    <label for="deposits">Bank Deposits</label><br>
+
+                    <div id="bank-details" >
+                        <div class="bank-details">
+                            <p>
+                                <strong>Commercial Bank:</strong><br>
+                                <span>Account Number: 65454683431</span><br>
+                                <span>Beneficiary Name: SUNRISE HOSPITAL</span>
+                            </p>
+                        </div>
+
+                        <div class="bank-details">
+                            <p>
+                                <strong> HNB Bank</strong><br>
+                                <span>Account Number: 4612879363 </span><br>
+                                <span>Beneficiary Name: SUNRISE HOSPITAL</span>
+                            </p>
+                        </div>
+
+                        <label for="reference-number">Transaction Reference Number:</label><br>
+                        <input type="text" name="reference-number" id="reference-number" placeholder="e.g. TXN12354">
+                    </div>
+
+                    <input type="radio" id="insurance" name="payment-method" value="insurance">
+                    <label for="insurance">Insurance</label><br>
+                    
+                    <div id="insurance-details" >
+                        <label for="policy-number">Policy Number:</label>
+                        <input type="text" id="policy-number" placeholder="Enter Policy Number"><br>
+                        <label for="insurer-name">Insurer Name:</label>
+                        <input type="text" id="insurer-name" placeholder="Enter Insurer Name"><br>
+                    </div> <br><br>
+                </fieldset>
+
+                <button id="submit-btn">Submit Order</button>
+            </form>
+        </div>
+
+        <div class="container2">
+            <div class="details-container">
+                <h2>Order Summary</h2>
+                <p id="original-price"></p>
+                <p id="discount-price"></p>
+                <p id="deliver-price"></p>
+                <p id="subtotal-text"></p>
+       
+                <table id="cartTable">
+                    <thead>
+                        <tr class="head-row">
+                            <th>Category</th>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cartBody">
+                        <!-- Cart items will be dynamically added here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <script src="form.js" defer></script>
+</body>
+</html>
